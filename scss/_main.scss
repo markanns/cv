@@ -8,7 +8,9 @@ main{
         border-bottom: 1px solid black;
 
         @media screen and(max-width:380px){
-            display: grid;
+            display: grid;  
+            text-align: center;
+        
         }
         
         div  {
