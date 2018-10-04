@@ -1,0 +1,33 @@
+html {
+//  background: linear-gradient(to right,rgb(187, 210, 197), rgb(83, 105, 118));
+background: linear-gradient(to right,#f4f4f4,#373737);
+ font-family: 'Playfair Display', serif;
+ font-size: 18px;
+ color:rgb(39, 22, 22);
+ box-sizing: border-box;   
+ margin: 0;
+    padding: 0;
+ }
+
+
+body {
+    
+    
+    width: 75vw;
+    background-image: linear-gradient(to bottom, rgba(#c0b283, 0.8), rgba(#dcd0c0, 0.8)),url(../slike/rsz_kari-shea-601696-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(211, 211, 211, 0.425);
+    @media screen and(max-width:500px){
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        background-image:  linear-gradient(to bottom, rgba(#c0b283, 0.8), rgba(#dcd0c0, 0.8));
+    }
+   
+ }
+
+

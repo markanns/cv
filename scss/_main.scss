@@ -1,0 +1,139 @@
+
+main{
+
+    .kontakt {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        border-bottom: 1px solid black;
+
+        @media screen and(max-width:380px){
+            display: grid;
+        }
+        
+        div  {
+            text-align: center;
+        }
+    
+        .email p  a {
+            text-decoration: none;
+            color: black;
+            
+        }
+
+        .email {
+              abbr {
+                text-decoration: none;
+            }
+        }
+
+        // .telefon svg {
+        //     fill: green;
+        // }
+
+          
+    }
+    
+    h2  {
+        text-align: center;
+        width: 200px;
+        border: 1px solid black;
+        padding: 5px;
+        margin-left: 10px;
+        background-color: rgba(143, 147, 153, 0.747);
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px rgba(110, 61, 61, 0.425);
+
+     
+       
+
+
+    }
+    h2:hover{
+            transform: skew(20deg) scale(1.1);
+           background: -webkit-linear-gradient(black,white);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }
+    
+    .rad {
+        display: flex;
+     
+        
+        .firme {
+            border-right: 1px dashed black;
+            padding-left:10px;
+            padding-right: 10px;
+        }
+
+        .opis {
+            padding-left: 10px;
+            display: grid;
+            p {
+                padding-top: 30px;
+            }
+            
+
+        }
+        
+    }
+
+    .naslovi {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .obrazovanje {
+        display: flex;
+        justify-content: space-evenly;
+
+        .kursevi {
+            margin-left: 80px;
+        }
+        .skole {
+            margin-left: 10px;
+        }
+    }
+
+    .ostalo {
+        li {
+            list-style: url(../slike/iconmonstr-check-mark-11-12.png);
+        }
+
+        h2 {
+            width: 100px;
+        }
+    }
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    border:none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: rgb(163, 162, 162);
+    display: none;
+    overflow: hidden;
+}
+
+
+    
+}

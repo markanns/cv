@@ -1,0 +1,30 @@
+footer {
+    height: 100px;
+    background-color:gray;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 25px;
+    -webkit-clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+    
+    @media screen and (max-width:500px) {
+        display: block;
+        text-align: center;
+        
+    }
+
+    @media screen and (max-width:300px) {
+        text-align: center;
+    }
+    
+    a {
+        height: 40px;
+    }
+
+   svg:hover{
+          filter: invert(100%);
+          transition-duration: 0.7s;
+   }
+}

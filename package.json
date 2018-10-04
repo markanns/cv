@@ -1,0 +1,16 @@
+{
+  "name": "CV",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d CV"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://markanns.github.io/cv",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
