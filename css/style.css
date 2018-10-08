@@ -57,8 +57,7 @@ main {
     border-bottom: 1px solid black; }
     @media screen and (max-width: 380px) {
       main .kontakt {
-        display: grid;
-        text-align: center; } }
+        display: grid; } }
     main .kontakt div {
       text-align: center; }
     main .kontakt .email p a {
