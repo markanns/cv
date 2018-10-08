@@ -39,15 +39,16 @@ function myFunction() {
     
 
 if (window.matchMedia("(max-width: 500px)").matches) {
-    /* The viewport is less than, or equal to, 700 pixels wide */
     
+    paragraf1.textContent = 'kostres90@hotmail.com';
     main.style.display = 'none';
     ac.style.display = 'block';
     } else {
     
+    paragraf1.textContent = 'Email';
     main.style.display = 'block';
     ac.style.display = 'none';
-    /* The viewport is greater than 700 pixels wide */
+    
     }
 }
  
