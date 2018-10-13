@@ -46,20 +46,20 @@ header {
       display: grid;
       border-radius: 0; } }
 
-main .kontakt {
+main .contact {
   display: flex;
   justify-content: space-evenly;
   padding-top: 30px;
   border-bottom: 1px solid black; }
   @media screen and (max-width: 380px) {
-    main .kontakt {
+    main .contact {
       display: grid; } }
-  main .kontakt div {
+  main .contact div {
     text-align: center; }
-  main .kontakt .email p a {
+  main .contact .email p a {
     text-decoration: none;
     color: black; }
-  main .kontakt .email abbr {
+  main .contact .email abbr {
     text-decoration: none; }
 main h2 {
   text-align: center;
@@ -75,32 +75,32 @@ main h2:hover {
   background: -webkit-linear-gradient(black, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
-main .rad {
+main .work {
   display: flex; }
-  main .rad .firme {
+  main .work .firms {
     border-right: 1px dashed black;
     padding-left: 10px;
     padding-right: 10px; }
-  main .rad .opis {
+  main .work .description {
     padding-left: 10px;
     display: grid; }
-    main .rad .opis p {
+    main .work .description p {
       padding-top: 30px; }
-main .naslovi {
+main .headings {
   display: flex;
   justify-content: space-around; }
-main .obrazovanje {
+main .education {
   display: flex;
   justify-content: space-evenly; }
-  main .obrazovanje .kursevi {
+  main .education .courses {
     margin-left: 80px; }
-  main .obrazovanje .skole {
+  main .education .school {
     margin-left: 10px; }
-main .ostalo li {
+main .other li {
   list-style: url(../slike/iconmonstr-check-mark-11-12.png); }
-main .ostalo h2 {
+main .other h2 {
   width: 100px; }
-main .accordion {
+main .accordions {
   background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -110,7 +110,7 @@ main .accordion {
   border: none;
   outline: none;
   transition: 0.4s; }
-main .active, main .accordion:hover {
+main .active, main .accordions:hover {
   background-color: #ccc; }
 main .panel {
   padding: 0 18px;

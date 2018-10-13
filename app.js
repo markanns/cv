@@ -1,7 +1,7 @@
 let paragraf1 = document.getElementById('paragraf');
 let link1 = document.getElementById('link');
-let main = document.getElementById('sredina');
-let ac = document.getElementById('harmonika');
+let main = document.getElementById('middle');
+let ac = document.getElementById('accordion');
 
 
 function myFunction() {
@@ -22,7 +22,7 @@ if (window.matchMedia("(max-width: 500px)").matches) {
 }
  
 
-let acc = document.getElementsByClassName("accordion");
+let acc = document.getElementsByClassName("accordions");
 let i;
 
 for (i = 0; i < acc.length; i++) {

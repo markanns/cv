@@ -1,7 +1,7 @@
 
 main{
 
-    .kontakt {
+    .contact {
         display: flex;
         justify-content: space-evenly;
         padding-top: 30px;
@@ -29,7 +29,7 @@ main{
             }
         }
 
-        // .telefon svg {
+        // .phone svg {
         //     fill: green;
         // }
 
@@ -60,17 +60,17 @@ main{
            -webkit-text-fill-color: transparent;
         }
     
-    .rad {
+    .work {
         display: flex;
      
         
-        .firme {
+        .firms {
             border-right: 1px dashed black;
             padding-left:10px;
             padding-right: 10px;
         }
 
-        .opis {
+        .description {
             padding-left: 10px;
             display: grid;
             p {
@@ -82,25 +82,25 @@ main{
         
     }
 
-    .naslovi {
+    .headings {
         display: flex;
         justify-content: space-around;
         
     }
 
-    .obrazovanje {
+    .education {
         display: flex;
         justify-content: space-evenly;
 
-        .kursevi {
+        .courses {
             margin-left: 80px;
         }
-        .skole {
+        .school {
             margin-left: 10px;
         }
     }
 
-    .ostalo {
+    .other {
         li {
             list-style: url(../slike/iconmonstr-check-mark-11-12.png);
         }
@@ -113,7 +113,7 @@ main{
 
 
 
-.accordion {
+.accordions {
     background-color: #eee;
     color: #444;
     cursor: pointer;
@@ -126,7 +126,7 @@ main{
 }
 
 
-.active, .accordion:hover {
+.active, .accordions:hover {
     background-color: #ccc;
 }
 
