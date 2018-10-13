@@ -1,5 +1,4 @@
 let paragraf1 = document.getElementById('paragraf');
-let link1 = document.getElementById('link');
 let main = document.getElementById('middle');
 let ac = document.getElementById('accordion');
 
